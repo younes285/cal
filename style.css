@@ -1,0 +1,40 @@
+
+.container{
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(181, 178, 178);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 100%;
+    background-color:black;
+    height: 80px;
+    width: 40%;
+    color: white;
+    margin: 40px 0;
+}
+.form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 40px 0;
+    justify-content: center;
+
+}
+.numbers{
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr;
+    width: 100%;
+}
+button{
+    background-color: black;
+    color: white;
+    border: solid black;
+    margin: 10px 10px;
+}
+.operation{
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+}
